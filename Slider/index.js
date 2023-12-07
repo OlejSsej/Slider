@@ -50,15 +50,15 @@ function setActiveSlide(index) {
 
 
     dots.forEach(dot => {
-      if (dot.classList.contains('active-dot')) {
-        dot.classList.remove('active-dot');
-        dot.classList.add('dot');
+      if (dot.classList.contains('active')) {
+        dot.classList.remove('active');
+        dot.classList.add('nonActive');
       }
     });
     
     if (dots[index]) {
-        dots[index].classList.remove('dot');
-        dots[index].classList.add('active-dot');
+        dots[index].classList.remove('nonActive');
+        dots[index].classList.add('active');
     }
 
 }

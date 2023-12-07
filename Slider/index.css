@@ -1,15 +1,15 @@
 @font-face {
   font-family: "YesevaOne-Regular";
   src: local("YesevaOne"),
-      url("/fonts/YesevaOne-Regular.woff2") format("woff2"),
-      url("/fonts/YesevaOne-Regular.woff") format("woff");
+      url("../fonts/YesevaOne-Regular.woff2") format("woff2"),
+      url("../fonts/YesevaOne-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "NunitoSans-Regular";
   src: local("NunitoSans"),
-      url("/fonts/NunitoSans-Regular.woff2") format("woff2"),
-      url("/fonts/NunitoSans-Regular.woff") format("woff");
+      url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Regular.woff") format("woff");
 }
 
 /* ----------------------------------------------------------- */
@@ -181,21 +181,21 @@ img{
 }
 
 
-.active-dot{
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: none;  
-  background-color: white;
-}
-
-
 .dot{
   width: 10px;
   height: 10px;
   border-radius: 50%;
   border: none;
   background-color: #ffffff4d;
+}
+
+
+.dot.nonActive{
+  background-color: #ffffff4d;
+}
+
+.dot.active{
+  background-color: white;
 }
 
 
