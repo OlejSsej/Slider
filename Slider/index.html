@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="index.css">
+    <title>Slider</title>
+</head>
+
+<body>
+    
+    <div class="hero">
+        <div class="hero__content">
+            <div class="hero__wrap">
+                <div class="hero__title">
+                    <h1>Completed projects       --------</h1>
+                </div>
+                <div class="hero__main">
+                    Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br>market we have made happy more than 1000 families
+                </div>
+            </div>
+
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <div class="hero__item-title">
+                        City:
+                    </div>
+                    <div class="hero__item-content" id="city">
+                        Rostov-on-Don <br>LCD admiral
+                    </div>
+                </li>
+                <li class="hero__item">
+                    <div class="hero__item-title">
+                        Apartment area:
+                    </div>
+                    <div class="hero__item-content" id="area">
+                        81 m<sup>2</sup>
+                    </div>
+                </li>
+                <li class="hero__item">
+                    <div class="hero__item-title">
+                        Repair time:
+                    </div>
+                    <div class="hero__item-content" id="time">
+                        3.5 months
+                    </div>
+                </li>
+                <li class="hero__item">
+                    <div class="hero__item-title">
+                        Repair Cost:
+                    </div>
+                    <div class="hero__item-content" id="cost">
+                        Upon request
+                    </div>
+                </li>
+            </ul>
+
+            <div class="hero__slider-btns">
+                <div class="hero__slider-btns-wrap">
+                    <div class="left-btn" id="prevBtn"> 
+                        <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.308e-05 6.63802L6.63807 -2.25689e-05L7.58563 0.947545L1.89516 6.63802L7.58563 12.3285L6.63807 13.2761Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.94758 5.96816L41.4556 5.96817L41.4556 7.30823L0.94758 7.30822L0.94758 5.96816Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="first-btn"> 
+                        <div class="dot"> 
+                            
+                        </div>
+                    </div>
+                    <div class="second-btn"> 
+                        <div class="dot"> 
+                            
+                        </div>
+                    </div>
+                    <div class="third-btn"> 
+                        <div class="dot"> 
+                            
+                        </div>
+                    </div>
+                    <div class="right-btn" id="nextBtn"> 
+                        <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7355 7.30778L0.227539 7.30777L0.227539 5.96771L40.7355 5.96772L40.7355 7.30778Z" fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__slider">
+            <div class="hero__slider-wrap">
+                <ul class="hero__slider-list">
+                    <li class="hero__slider-list-item active" >
+                        Rostov-on-Don, Admiral
+                    </li>
+                    <li class="hero__slider-list-item nonActive" >
+                        Sochi Thieves
+                    </li>
+                    <li class="hero__slider-list-item nonActive" >
+                        Rostov-on-Don Patriotic
+                    </li>
+                </ul>
+                
+                <div class="hero__slider-img-wrap">
+                    <img class="hero__slider-img active" src="images/image1.jpg" alt="Room" >
+                    <img class="hero__slider-img" src="images/image2.jpg" alt="Room" >
+                    <img class="hero__slider-img" src="images/image3.jpg" alt="Room" >
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body> 
+</html>
